@@ -40,49 +40,55 @@
             // 
             // lblNiquel1
             // 
-            this.lblNiquel1.BackColor = System.Drawing.Color.Red;
+            this.lblNiquel1.BackColor = System.Drawing.Color.Crimson;
             this.lblNiquel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblNiquel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNiquel1.ForeColor = System.Drawing.Color.White;
-            this.lblNiquel1.Location = new System.Drawing.Point(58, 138);
+            this.lblNiquel1.Location = new System.Drawing.Point(77, 170);
+            this.lblNiquel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNiquel1.Name = "lblNiquel1";
-            this.lblNiquel1.Size = new System.Drawing.Size(57, 65);
+            this.lblNiquel1.Size = new System.Drawing.Size(75, 80);
             this.lblNiquel1.TabIndex = 0;
             this.lblNiquel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblNiquel2
             // 
-            this.lblNiquel2.BackColor = System.Drawing.Color.Red;
+            this.lblNiquel2.BackColor = System.Drawing.Color.Crimson;
             this.lblNiquel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblNiquel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNiquel2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblNiquel2.Location = new System.Drawing.Point(173, 138);
+            this.lblNiquel2.Location = new System.Drawing.Point(231, 170);
+            this.lblNiquel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNiquel2.Name = "lblNiquel2";
-            this.lblNiquel2.Size = new System.Drawing.Size(57, 65);
+            this.lblNiquel2.Size = new System.Drawing.Size(75, 80);
             this.lblNiquel2.TabIndex = 1;
             this.lblNiquel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblNiquel3
             // 
-            this.lblNiquel3.BackColor = System.Drawing.Color.Red;
+            this.lblNiquel3.BackColor = System.Drawing.Color.Crimson;
             this.lblNiquel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblNiquel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNiquel3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblNiquel3.Location = new System.Drawing.Point(281, 138);
+            this.lblNiquel3.Location = new System.Drawing.Point(375, 170);
+            this.lblNiquel3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNiquel3.Name = "lblNiquel3";
-            this.lblNiquel3.Size = new System.Drawing.Size(57, 65);
+            this.lblNiquel3.Size = new System.Drawing.Size(75, 80);
             this.lblNiquel3.TabIndex = 2;
             this.lblNiquel3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnGirar
             // 
-            this.btnGirar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGirar.Location = new System.Drawing.Point(5, 441);
+            this.btnGirar.BackColor = System.Drawing.Color.Crimson;
+            this.btnGirar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGirar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnGirar.Location = new System.Drawing.Point(340, 393);
+            this.btnGirar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGirar.Name = "btnGirar";
-            this.btnGirar.Size = new System.Drawing.Size(110, 37);
+            this.btnGirar.Size = new System.Drawing.Size(78, 48);
             this.btnGirar.TabIndex = 3;
             this.btnGirar.Text = "&Girar";
-            this.btnGirar.UseVisualStyleBackColor = true;
+            this.btnGirar.UseVisualStyleBackColor = false;
             this.btnGirar.Click += new System.EventHandler(this.btnGirar_Click);
             // 
             // tmrSorteioGeral
@@ -92,10 +98,13 @@
             // 
             // btnJogar
             // 
-            this.btnJogar.BackColor = System.Drawing.Color.Chartreuse;
-            this.btnJogar.Location = new System.Drawing.Point(163, 301);
+            this.btnJogar.BackColor = System.Drawing.Color.LimeGreen;
+            this.btnJogar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnJogar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnJogar.Location = new System.Drawing.Point(217, 370);
+            this.btnJogar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnJogar.Name = "btnJogar";
-            this.btnJogar.Size = new System.Drawing.Size(86, 58);
+            this.btnJogar.Size = new System.Drawing.Size(115, 71);
             this.btnJogar.TabIndex = 4;
             this.btnJogar.Text = "Jogar";
             this.btnJogar.UseVisualStyleBackColor = false;
@@ -108,14 +117,16 @@
             // 
             // frmCacaNiquel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(430, 535);
+            this.BackColor = System.Drawing.Color.BlueViolet;
+            this.ClientSize = new System.Drawing.Size(573, 658);
             this.Controls.Add(this.btnJogar);
             this.Controls.Add(this.btnGirar);
             this.Controls.Add(this.lblNiquel3);
             this.Controls.Add(this.lblNiquel2);
             this.Controls.Add(this.lblNiquel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmCacaNiquel";
             this.Text = "Caça Níquel 1.0.0";
             this.ResumeLayout(false);

@@ -1,13 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{78A2C614-9841-47FC-9BF7-B86A3F3B59C8}</ProjectGuid>
+    <ProjectGuid>{0BBCC460-B276-466C-B441-D4CC49AD1AA3}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CaçaNiquel</RootNamespace>
-    <AssemblyName>CaçaNiquel</AssemblyName>
+    <RootNamespace>Mega_Sena</RootNamespace>
+    <AssemblyName>Mega Sena</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,17 +52,8 @@
     <Compile Include="frmMegaSena.Designer.cs">
       <DependentUpon>frmMegaSena.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmCacaNiquel.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmCacaNiquel.Designer.cs">
-      <DependentUpon>FrmCacaNiquel.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmCacaNiquel.resx">
-      <DependentUpon>FrmCacaNiquel.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmMegaSena.resx">
       <DependentUpon>frmMegaSena.cs</DependentUpon>
     </EmbeddedResource>
